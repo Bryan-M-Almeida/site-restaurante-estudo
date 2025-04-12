@@ -23,6 +23,9 @@ Este projeto foi feito com fins **educacionais** para entender como sites reais 
 ![LudWig2](https://github.com/user-attachments/assets/1f66fc8f-e8cb-474e-8a69-f60debc4bbe6)
 
 ## 🔗 Link do Projeto
+Pagina:
+https://bryan-m-almeida.github.io/site-restaurante-estudo/
+projeto: https://github.com/Bryan-M-Almeida/site-restaurante-estudo
 
 
 ## 🔗 Site Original
