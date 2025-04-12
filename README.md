@@ -1,4 +1,4 @@
-# 🍽️ Site de Restaurante – Projeto Clone com Melhorias
+# 🍽️ Site de Restaurante (Ludwig Restaurant) – Projeto Clone com Melhorias (em andamento)
 
 Este é um projeto de **estudo e prática em HTML, CSS e JavaScript**, baseado em um site real de restaurante. O objetivo foi clonar a estrutura original e, a partir disso, aplicar personalizações e melhorias próprias.
 
@@ -46,6 +46,6 @@ https://ludwigrestaurant.com.br
 
 ```bash
 git clone https://github.com/seuuser/seu-repo.git
-cd seu-repo
+cd site-restaurante-estudo
 # depois é só abrir o index.html no navegador
 
