@@ -17,13 +17,14 @@ Este é um projeto de **estudo e prática em HTML, CSS e JavaScript**, baseado e
 Este projeto foi feito com fins **educacionais** para entender como sites reais são estruturados e funcionam. Além de reproduzir o layout, foram feitas melhorias para fixar o aprendizado e mostrar capacidade de adaptação.
 
 ## 📸 Screenshot
-
-
-## 🔗 Link do Projeto
 ![LudWig](https://github.com/user-attachments/assets/1f18c5c3-6d15-4c91-ad77-b9f052da8bce)
 ![LudWig2](https://github.com/user-attachments/assets/1f66fc8f-e8cb-474e-8a69-f60debc4bbe6)
 
+## 🔗 Link do Projeto
 
+
+## 🔗 Site Original
+https://ludwigrestaurant.com.br
 
 ## 📁 Como rodar localmente
 
