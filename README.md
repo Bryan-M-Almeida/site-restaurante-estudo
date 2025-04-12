@@ -29,9 +29,13 @@ Este projeto foi feito com fins **educacionais** para entender como sites reais 
 https://ludwigrestaurant.com.br
 
 ## 📁 estrutura/
+
 ├── index.html
+
 ├── style/
+
 ├── script/
+
 ├── imagens/
 
 
