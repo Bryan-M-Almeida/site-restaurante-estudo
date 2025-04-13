@@ -2,16 +2,29 @@
 <html lang="pt-br">
 
 <head>
+    <!-- Definindo o conjunto de caracteres para a página -->
     <meta charset="UTF-8">
+
+    <!-- Meta tag para tornar o site responsivo -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título da página -->
     <title>Ludwig Restaurante</title>
+
+    <!-- Link para o arquivo CSS que define o estilo da página -->
     <link rel="stylesheet" href="style/style.css">
+
+    <!-- Conexões para utilizar fontes do Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+
+    <!-- Ícone do site -->
     <link rel="shortcut icon" href="https://media-cdn.tripadvisor.com/media/photo-s/22/69/64/1d/ludwig-restaurant.jpg"
         type="image/x-icon">
+
+    <!-- Carregando uma segunda fonte adicional -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -20,32 +33,24 @@
 </head>
 
 <body>
+    <!-- Menu de navegação -->
     <nav>
         <div class="container">
+            <!-- Logo do restaurante, que ao ser clicada leva à home -->
             <a href="#">
                 <img src="https://www.ludwigrestaurant.com.br/dados/layout/logo.png" class="logo">
             </a>
-            <a href="#inicio" class="item">
-                Início
-            </a>
-            <a href="#ambiente" class="item">
-                Ambiente
-            </a>
-            <a href="#cardapio" class="item">
-                Cardápio
-            </a>
-            <a href="#comoChegar" class="item">
-                Como chegar
-            </a>
-            <a href="#reservas" class="item">
-                Reservas
-            </a>
-            <a href="#faleConosco" class="item">
-                Fale conosco
-            </a>
-            <a href="#parceiros" class="item">
-                Parceiros
-            </a>
+
+            <!-- Links para as seções da página -->
+            <a href="#inicio" class="item">Início</a>
+            <a href="#ambiente" class="item">Ambiente</a>
+            <a href="#cardapio" class="item">Cardápio</a>
+            <a href="#comoChegar" class="item">Como chegar</a>
+            <a href="#reservas" class="item">Reservas</a>
+            <a href="#faleConosco" class="item">Fale conosco</a>
+            <a href="#parceiros" class="item">Parceiros</a>
+
+            <!-- Ícones de redes sociais -->
             <div class="logos">
                 <a href=""><img src="https://www.ludwigrestaurant.com.br/dados/layout/icons/insta.png" alt=""
                         class="separador"></a>
@@ -58,17 +63,42 @@
             </div>
         </div>
     </nav>
+
+    <nav class="navFixed">
+        <div class="containerFixed">
+            <!-- Logo do restaurante, que ao ser clicada leva à home -->
+            <a href="#">
+                <img src="https://www.ludwigrestaurant.com.br/dados/layout/logo.png" class="logo">
+            </a>
+
+            <!-- Links para as seções da página -->
+            <a href="#inicio" class="item">Início</a>
+            <a href="#ambiente" class="item">Ambiente</a>
+            <a href="#cardapio" class="item">Cardápio</a>
+            <a href="#comoChegar" class="item">Como chegar</a>
+            <a href="#reservas" class="item">Reservas</a>
+            <a href="#faleConosco" class="item">Fale conosco</a>
+            <a href="#parceiros" class="item">Parceiros</a>
+
+            <!-- Ícones de redes sociais -->
+
+        </div>
+    </nav>
+
+    <!-- Link para a área de reservas -->
     <div id="reserva">
         <a href=""><img src="https://ludwigrestaurant.com.br/dados/layout/reserva.png" width="70px" height="268px"
                 class="reserva"></a>
     </div>
 
-    <body>
+    <!-- Carrossel de imagens -->
+    <div id="slider"></div>
 
-        <div id="slider"></div>
-
+    <!-- Seção inicial com horários e boas-vindas -->
     <section id="inicio">
         <br><br>
+
+        <!-- Exibição dos horários de funcionamento -->
         <div class="horarios">
             <div class="dia">
                 <h5>Dias e <br> Horários:</h5>
@@ -78,10 +108,11 @@
             </div>
             <div class="sexta-sabado">
                 <h5>sextas e sábados <br> <small>12h ás 24h</small></h5>
-
             </div>
         </div>
         <br><br>
+
+        <!-- Descrição do restaurante e sua história -->
         <div class="inicioContainer">
             <img src="https://ludwigrestaurant.com.br/dados/layout/fotohome.jpg" alt="" class="welcomeFoto">
 
@@ -92,15 +123,15 @@
                 <hr>
                 <p>
                     O nome do nosso restaurante é uma homenagem ao Rei Ludwig II – conhecido como “Rei Cisne” –,
-                    responsável pela construção de belos castelos na Baviera que inspiraram Walt Disney na criação dos
-                    Castelos da Cinderela e da Bela Adormecida.
+                    responsável pela construção de belos castelos na Baviera que inspiraram Walt Disney na criação
+                    dos Castelos da Cinderela e da Bela Adormecida.
                     <br><br>
                     Fausto de Moura Magalhães, fundador e proprietário do Ludwig Restaurant em Campos do Jordão,
                     homenageou a origem de sua família oriunda do Tirol. Fausto usou sua expertise em marketing,
-                    relações públicas e eventos, áreas nas quais trabalhou como executivo para grandes empresas como a
-                    Johnson & Johnson, Philip Morris e a Tetra Pak, para transformar o restaurante em uma referência da
-                    gastronomia nobre em Campos do Jordão, juntamente à sua esposa e também proprietária da casa, Maria
-                    José Meireles, agregando sua rica bagagem de mais de 25 anos atuando na área financeira e de
+                    relações públicas e eventos, áreas nas quais trabalhou como executivo para grandes empresas como
+                    a Johnson & Johnson, Philip Morris e a Tetra Pak, para transformar o restaurante em uma referência
+                    da gastronomia nobre em Campos do Jordão, juntamente à sua esposa e também proprietária da casa,
+                    Maria José Meireles, agregando sua rica bagagem de mais de 25 anos atuando na área financeira e de
                     administração do Banco do Brasil.
                     <br><br>
                     Inaugurado em 1999, o Ludwig Restaurant abriu suas portas para receber o qualificado e exigente
@@ -109,11 +140,11 @@
                     contando também com a Gourmet, empresa de catering que oferece suporte gastronômico para eventos
                     sociais e corporativos.
                     <br><br>
-                    Nesse tempo, a casa se consagrou como uma das mais sofisticadas no universo da gastronomia do país,
-                    proporcionando uma imersão rica e deliciosamente marcante na gastronomia internacional com um toque
-                    brasileiro para os nossos clientes. Contando também com uma equipe de salão, cozinha e gestão
-                    qualificada e mantendo uma rigorosa preocupação com todas as etapas da prestação de serviços, desde
-                    a seleção e qualificação da equipe até a escolha e compra das melhores matérias primas.
+                    Nesse tempo, a casa se consagrou como uma das mais sofisticadas no universo da gastronomia do
+                    país, proporcionando uma imersão rica e deliciosamente marcante na gastronomia internacional com um
+                    toque brasileiro para os nossos clientes. Contando também com uma equipe de salão, cozinha e gestão
+                    qualificada e mantendo uma rigorosa preocupação com todas as etapas da prestação de serviços,
+                    desde a seleção e qualificação da equipe até a escolha e compra das melhores matérias primas.
                     <br><br>
                     Prezando sempre pela qualidade, estamos a postos para recebê-los em nossos salões Classic e de
                     Inverno, assim como em nossas salas vip – como a Sala Very Special Hennessy e o nosso Fumoir Ludwig
@@ -124,6 +155,8 @@
             <br><br>
         </div>
         <br><br>
+
+        <!-- Título e descrição sobre a história do fondue -->
         <div class=historiaTitle>
             <h2>
                 A história do Fondue
@@ -132,13 +165,16 @@
             </h2>
         </div>
         <br><br>
+
+        <!-- Detalhes sobre o fondue e sua origem -->
         <div class="historiaContainer">
             <img src="https://ludwigrestaurant.com.br/dados/layout/fondue-queijo.jpg" alt="" class="welcomeFoto">
 
-            <p>O fondue (ou a fondue como queiram, do verbo “fundir”, algo como “fundido” ou derretido”) foi criado na
-                Suíça, durante a Segunda Guerra, por camponeses das regiões montanhosas que não conseguiam buscar
+            <p>O fondue (ou a fondue como queiram, do verbo “fundir”, algo como “fundido” ou derretido”) foi criado
+                na Suíça, durante a Segunda Guerra, por camponeses das regiões montanhosas que não conseguiam buscar
                 alimento nas cidades devido ao frio intenso e muitos combates que aconteciam nos arredores. Por esse
-                motivo eles começaram a aproveitar os restos de queijo que produziam para se alimentar. A mistura ficava
+                motivo eles começaram a aproveitar os restos de queijo que produziam para se alimentar. A mistura
+                ficava
                 no fogo até derreter, então, mergulhavam pedaços de pão no creme, enquanto borbulhava.
                 <br><br>
                 Porém, a iguaria só ganhou fama na década de 1950, quando o chefe Conrad Egli, do restaurante Chalet
@@ -153,18 +189,25 @@
                 Elaborado seguindo as características clássicas do Fondue Suíço, composto de queijos diferenciados,
                 vinho branco e kirsch. Conseguimos traduzir o melhor da gastronomia suíça em nosso restaurante.
                 <br><br>
-                O nosso fondue é a melhor imagem que podemos guardar em nossa memória gustativa, destacando-se de todos
+                O nosso fondue é a melhor imagem que podemos guardar em nossa memória gustativa, destacando-se de
+                todos
                 os demais e igualando-se a verdadeira essência do fondue suíço.
             </p>
         </div>
 
     </section>
+
+    <!-- Seção do ambiente -->
     <section id="ambiente"></section>
+
+    <!-- Rodapé da página -->
     <footer>
         <div class="foot">
-
+            <!-- Informações adicionais do rodapé (se necessário) -->
         </div>
     </footer>
+
+    <!-- Link para o arquivo JavaScript -->
     <script src="script/script.js"></script>
 </body>
 
