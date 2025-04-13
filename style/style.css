@@ -4,9 +4,10 @@
     text-transform: uppercase;
     font-family: 'Montserrat' sans-serif;
     box-sizing: border-box;
+
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -118,7 +119,7 @@ small {
 
 #slider {
     position: relative;
-    width: 98.88vw;
+    width: 100%;
     height: 80vh;
     overflow: hidden;
 }
@@ -129,13 +130,39 @@ small {
     height: 100%;
     background-size: cover;
     background-position: center;
-    animation: descer 1s forwards;
+    opacity: 0;
+}
+
+/* Animação para a imagem inicial */
+.inicial {
+    animation: fadeInZoom 0.5s ease-out forwards;
+}
+
+/* Animação padrão do carrossel */
+.entrando {
+    animation: descer 1s ease-out forwards;
+}
+
+.saindo {
+    animation: subir 1s ease-out forwards;
+}
+
+@keyframes fadeInZoom {
+    0% {
+        opacity: 0;
+        transform: scale(1.1);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
 }
 
 @keyframes descer {
     0% {
         transform: translateY(-100%);
-        opacity: 100%;
+        opacity: 1;
     }
 
     100% {
@@ -144,12 +171,35 @@ small {
     }
 }
 
-.welcomeContainer {
-    background-color: rgba(255, 255, 255, 0.116);
+@keyframes subir {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(100%);
+        opacity: 1;
+    }
+}
+
+
+
+.inicioContainer {
+    background-color: rgba(255, 255, 255, 0.623);
     margin: 0 20%;
     overflow: hidden;
     color: #252314;
     padding: 20px;
+    border: 0.5px solid black;
+    border-radius: 20px;
+    transition: 0.8s;
+}
+
+.inicioContainer:hover {
+    scale: 1.05;
+    transform: scale(1.02);
+    box-shadow: 14px 14px 50px rgb(0, 0, 0);
 }
 
 .welcomeFoto {
@@ -168,10 +218,58 @@ p {
     font-size: 16px;
     color: black;
     text-transform: none;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 hr {
     border: 1.5px solid #922136;
     margin-right: 20%;
+}
+
+.historiaContainer small {
+    color: #252314;
+    font-size: 20px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.historiaContainer {
+    background-color: rgba(255, 255, 255, 0.623);
+    margin: 0 20%;
+    overflow: hidden;
+    color: #252314;
+    padding: 20px;
+    border: 0.5px solid black;
+    border-radius: 20px;
+    transition: 0.8s;
+}
+
+.historiaContainer h2 {
+    text-align: center;
+}
+
+.historiaContainer hr {
+    border: 1.5px solid #922136;
+    margin: 2% 20%;
+}
+
+.historiaContainer:hover {
+    scale: 1.05;
+    transform: scale(1.02);
+    box-shadow: 14px 14px 50px rgb(0, 0, 0);
+}
+
+.historiaTitle {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #252314;
+    border-bottom: 4px solid #922136;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.historiaTitle small {
+    color: #252314;
 }
