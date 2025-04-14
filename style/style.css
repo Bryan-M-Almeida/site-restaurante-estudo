@@ -18,10 +18,20 @@ body {
     margin: 0;
     font-size: 1.6vw;
     color: white;
+    background-color: white;
+}
+
+.bground {
     background-image: url("../imagens/bg.png");
-    background-size: cover;
+
+    background-attachment: fixed;
+    /* ou remova esse */
+    background-size: 100% auto;
+    /* largura cheia, altura proporcional */
+    background-position: center top;
     background-repeat: no-repeat;
 }
+
 
 /* -------------------------------------------------- */
 /* NAVEGAÇÃO FIXA */
@@ -35,7 +45,7 @@ body {
     position: fixed;
     width: 100%;
     top: 0;
-    padding: 10px 0;
+    padding: 0;
     gap: 20px;
     z-index: 5;
     transition: all 0.3s ease;
@@ -51,9 +61,9 @@ body {
 }
 
 .navFixed.smaller {
-    padding: 4px 0;
-    transform: scaleY(0.9);
-    background-color: rgb(30, 20, 20);
+    padding: 4px 50px;
+    transform: scaleY(1);
+    background-color: rgb(0, 0, 0);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
     transition: all 0.3s ease;
 }
@@ -73,11 +83,13 @@ body {
 /* NAVEGAÇÃO / LINKS / LOGO */
 /* -------------------------------------------------- */
 .container {
+    z-index: 7;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: wrap;
     background-color: rgb(44, 29, 29);
+    padding: 0;
 }
 
 a {
@@ -329,4 +341,52 @@ hr {
 
 small {
     color: #922136;
+}
+
+h1 {
+    color: #252314;
+    text-align: center;
+}
+
+.videos {
+    background-color: white;
+}
+
+.videosContainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+iframe {
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+iframe {
+    margin-top: 2%;
+    overflow: hidden;
+    color: #252314;
+    padding: 10px;
+    border: 0.5px solid black;
+    border-radius: 20px;
+    transition: 0.5s;
+    background-color: black;
+}
+
+iframe:hover {
+    scale: 1.05;
+    transform: scale(1.02);
+    box-shadow: 14px 14px 50px rgb(0, 0, 0);
+}
+
+.videoTitle {
+    margin-right: 20%;
+    margin-left: 20%;
+    border-bottom: 6px solid #922136;
+}
+
+.titleVideo {
+    text-align: center;
+    margin-bottom: 2%;
 }
