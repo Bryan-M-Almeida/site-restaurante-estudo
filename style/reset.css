@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 1.6vw;
+    color: white;
+}
+
+.bground {
+    background-image: url("../imagens/bg.png");
+
+    background-attachment: fixed;
+    /* ou remova esse */
+    background-size: 100% auto;
+    /* largura cheia, altura proporcional */
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+small {
+    color: #922136;
+    
+    text-align: center;
+}
+
+h1 {
+    color: #252314;
+    text-align: center;
+}

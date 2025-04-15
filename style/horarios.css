@@ -1,0 +1,28 @@
+.horarios {
+    background-color: rgba(255, 255, 255, 0.363);
+    color: gray;
+    display: flex;
+    border: 1.5px solid black;
+    margin: 1% 20% 5% 20%;
+    padding: 5% 5%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.dia {
+    display: flex;
+    border-bottom: 2.5px solid #922136;
+    padding: 0;
+    color: #252314;
+    margin: 0 5% 1% 0%;
+    font-size: 1.6vw;
+}
+
+.domingo-segunda,
+.sexta-sabado {
+    color: #252314;
+    font-size: 1.6vw;
+}

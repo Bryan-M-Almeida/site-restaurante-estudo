@@ -1,0 +1,124 @@
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 1vw;
+    }
+
+    .logo {
+        width: 10vw;
+    }
+
+    .welcomeFoto {
+        width: 20vw;
+    }
+}
+
+/* Telas médias (tablets e laptops entre 768px e 1199px) */
+@media screen and (max-width: 1199px) {
+    body {
+        font-size: 1.4vw;
+    }
+
+    .container,
+    .containerFixed {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item {
+        margin: 1vw 0;
+        font-size: 1em;
+    }
+
+    .logo {
+        width: 25vw;
+        margin: 10px 0;
+    }
+
+    .welcomeFoto {
+        width: 40vw;
+        float: none;
+        display: block;
+        margin: 0 auto 20px auto;
+    }
+
+    .inicioContainer,
+    .historiaContainer {
+        margin: 5%;
+    }
+
+    .historiaTitle {
+        margin: 0 20%;
+    }
+
+    .horarios {
+        margin: 5%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    iframe {
+        width: 90%;
+        height: auto;
+    }
+}
+
+/* Telas pequenas (celulares até 767px) */
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 4vw;
+    }
+
+    .logo {
+        width: 40vw;
+    }
+
+    .container,
+    .containerFixed {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item {
+        font-size: 1em;
+        margin: 10px 0;
+    }
+
+    .logos {
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .welcomeFoto {
+        width: 80vw;
+    }
+
+    .inicioContainer,
+    .historiaContainer {
+        margin: 5%;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 6vw;
+    }
+
+    p,
+    .historiaContainer small,
+    .historiaTitle small {
+        font-size: 4vw;
+    }
+
+    .horarios {
+        flex-direction: column;
+        margin: 5%;
+    }
+
+    .historiaTitle {
+        margin: 0 10%;
+    }
+
+    iframe {
+        width: 100%;
+    }
+}

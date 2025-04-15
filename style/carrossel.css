@@ -1,0 +1,63 @@
+#slider {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+}
+
+.inicial {
+    animation: fadeInZoom 0.5s ease-out forwards;
+}
+
+.entrando {
+    animation: descer 1s ease-out forwards;
+}
+
+.saindo {
+    animation: subir 1s ease-out forwards;
+}
+
+@keyframes fadeInZoom {
+    0% {
+        opacity: 0;
+        transform: scale(1.1);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes descer {
+    0% {
+        transform: translateY(-100%);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes subir {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(100%);
+        opacity: 1;
+    }
+}

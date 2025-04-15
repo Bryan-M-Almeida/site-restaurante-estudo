@@ -1,0 +1,43 @@
+.historiaContainer {
+    background-color: rgba(255, 255, 255, 0.623);
+    margin: 0 20%;
+    overflow: hidden;
+    color: #252314;
+    padding: 20px;
+    border: 0.5px solid black;
+    border-radius: 20px;
+    transition: 0.8s;
+}
+
+.historiaContainer:hover {
+    scale: 1.05;
+    transform: scale(1.02);
+    box-shadow: 14px 14px 50px rgb(0, 0, 0);
+}
+
+.historiaContainer h2 {
+    text-align: center;
+}
+
+.historiaContainer hr {
+    border: 1.5px solid #922136;
+    margin: 2% 20%;
+}
+
+.historiaTitle {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #252314;
+    border-bottom: 4px solid #922136;
+    margin: 0 35%;
+}
+
+.historiaContainer small,
+.historiaTitle small {
+    color: #252314;
+    font-size: 1.6vw;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+}
