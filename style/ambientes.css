@@ -1,0 +1,44 @@
+.carrossel-container {
+    overflow: hidden;
+    width: 100%;
+}
+
+.carrossel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    scroll-behavior: smooth;
+}
+
+.img-carrossel {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+    cursor: pointer;
+}
+
+#paginacao {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#paginacao span {
+    width: 10px;
+    height: 10px;
+    margin: 0 4px;
+    background: #575252;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background 0.3s;
+}
+
+#paginacao span.ativo {
+    background: rgb(199, 16, 16);
+}
+.carrossel-container h2{
+    font-size: 2em ;
+    color: #252314;
+    text-align: center;
+}
+.carrossel-container small{
+    font-size: 1em;
+}

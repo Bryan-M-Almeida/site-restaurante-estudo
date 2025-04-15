@@ -3,7 +3,7 @@
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: rgb(44, 29, 29);
+    background-color: #4c201a;
     position: fixed;
     width: 100%;
     top: 0;
@@ -32,7 +32,7 @@
 
 .navFixed.smaller .item {
     margin: 1vw 0;
-    font-size: 0.75em;
+    font-size: 1.5em;
     transition: all 0.3s ease;
 }
 
@@ -58,7 +58,7 @@
 a {
     color: #DCBE60;
     text-decoration: none;
-    font-size: 0.9em;
+    font-size: 1.2em;
     transition: border-color 0.3s;
     text-transform: uppercase;
 }

@@ -1,0 +1,26 @@
+.tour360 {
+    background-color: #4c201a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25vw; /* Largura maior para formar o retângulo */
+    height: 15vw; /* Altura menor */
+    text-align: center;
+}
+
+
+.veja360 img {
+    width: 4vw; /* Ajuste do tamanho da imagem */
+    height: 4vw;
+}
+.veja360 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tour360 h2{
+    color: #dcbe60;
+    font-size: 1em;
+}
