@@ -2,50 +2,31 @@
 <html lang="pt-br">
 
 <head>
-    <!-- Definindo o conjunto de caracteres para a página -->
     <meta charset="UTF-8">
-
-    <!-- Meta tag para tornar o site responsivo -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Título da página -->
     <title>Ludwig Restaurante</title>
 
-    <!-- Link para o arquivo CSS que define o estilo da página -->
+    <!-- Estilos -->
     <link rel="stylesheet" href="style/style.css">
 
-    <!-- Conexões para utilizar fontes do Google Fonts -->
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
 
-    <!-- Ícone do site -->
+    <!-- Favicon -->
     <link rel="shortcut icon" href="https://media-cdn.tripadvisor.com/media/photo-s/22/69/64/1d/ludwig-restaurant.jpg"
         type="image/x-icon">
-
-    <!-- Carregando uma segunda fonte adicional -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
 </head>
 
 <body>
     <nav class="navFixed">
         <div class="containerFixed">
-            <!-- Logo do restaurante, que ao ser clicada leva à home -->
             <a href="#">
-                <img src="https://www.ludwigrestaurant.com.br/dados/layout/logo.png" class="logo">
+                <img src="https://www.ludwigrestaurant.com.br/dados/layout/logo.png" class="logo" alt="Logo Ludwig">
             </a>
-
-            <!-- Links para as seções da página -->
             <a href="#inicio" class="item">Início</a>
             <a href="#ambientes" class="item">Ambiente</a>
             <a href="#cardapio" class="item">Cardápio</a>
@@ -54,28 +35,33 @@
             <a href="#faleConosco" class="item">Fale conosco</a>
             <a href="#parceiros" class="item">Parceiros</a>
 
-            <!-- Ícones de redes sociais -->
             <div class="logos">
-                <a href="https://www.instagram.com/ludwigrestaurantoficial/"><img
-                        src="https://www.ludwigrestaurant.com.br/dados/layout/icons/insta.png" alt="instagram"
-                        class="separador"></a>
-                <a href="https://pt-br.facebook.com/ludwigrestaurant"><img
-                        src="https://www.ludwigrestaurant.com.br/dados/layout/icons/face.png" alt="facebook"
-                        class="separador"></a>
-                <a href="https://api.whatsapp.com/send?phone=551236635111"><img
-                        src="https://www.ludwigrestaurant.com.br/dados/layout/icons/whats.png" alt="whatsapp"
-                        class="separador"></a>
-                <a
-                    href="https://www.tripadvisor.com.br/Restaurant_Review-g303607-d1870006-Reviews-Ludwig_Restaurant-Campos_Do_Jordao_State_of_Sao_Paulo.html"><img
-                        src="https://www.ludwigrestaurant.com.br/dados/layout/icons/trip.png" alt="Trip"
-                        class="separador"></a>
+                <a href="https://www.instagram.com/ludwigrestaurantoficial/" target="_blank">
+                    <img src="https://www.ludwigrestaurant.com.br/dados/layout/icons/insta.png" alt="Instagram"
+                        class="separador">
+                </a>
+                <a href="https://pt-br.facebook.com/ludwigrestaurant" target="_blank">
+                    <img src="https://www.ludwigrestaurant.com.br/dados/layout/icons/face.png" alt="Facebook"
+                        class="separador">
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=551236635111" target="_blank">
+                    <img src="https://www.ludwigrestaurant.com.br/dados/layout/icons/whats.png" alt="WhatsApp"
+                        class="separador">
+                </a>
+                <a href="https://www.tripadvisor.com.br/Restaurant_Review-g303607-d1870006-Reviews-Ludwig_Restaurant-Campos_Do_Jordao_State_of_Sao_Paulo.html"
+                    target="_blank">
+                    <img src="https://www.ludwigrestaurant.com.br/dados/layout/icons/trip.png" alt="TripAdvisor"
+                        class="separador">
+                </a>
             </div>
         </div>
     </nav>
 
     <!-- Link para a área de reservas -->
     <div id="reserva">
-        <a href="reserva.html"><img src="https://ludwigrestaurant.com.br/dados/layout/reserva.png" class="reserva"></a>
+        <a href="reserva.html">
+            <img src="https://ludwigrestaurant.com.br/dados/layout/reserva.png" class="reserva" alt="Reservar agora">
+        </a>
     </div>
 
     <!-- Carrossel de imagens -->
@@ -87,17 +73,25 @@
         <!-- Exibição dos horários de funcionamento -->
 
         <div class="horarios">
+            <div class="horario-bloco">
+                <div class="dia">
+                    <h5>Dias e <br> Horários:</h5>
+                </div>
+            </div>
 
-            <div class="dia">
-                <h5>Dias e <br> Horários:</h5>
+            <div class="horario-bloco">
+                <div class="domingo-segunda">
+                    <h5>Domingo a quinta <br><small>12h às 22h</small></h5>
+                </div>
             </div>
-            <div class="domingo-segunda">
-                <h5>Domingo a quinta <br> <small>12h ás 22h</small></h5>
-            </div>
-            <div class="sexta-sabado">
-                <h5>sextas e sábados <br> <small>12h ás 24h</small></h5>
+
+            <div class="horario-bloco">
+                <div class="sexta-sabado">
+                    <h5>Sextas e sábados <br><small>12h às 24h</small></h5>
+                </div>
             </div>
         </div>
+
         <br><br>
         <!-- Descrição do restaurante e sua história -->
 
@@ -252,25 +246,24 @@
             </h2>
             <br>
             <div class="carrossel" id="carrosselAmbientes">
-                <img src="imagens/1.jpg" alt="" class="img-carrossel" />
-                <img src="imagens/2.jpg" alt="" class="img-carrossel" />
-                <img src="imagens/3.jpg" alt="" class="img-carrossel" />
-                <img src="imagens/4.jpg" alt="" class="img-carrossel" />
-                <img src="imagens/5.jpg" alt="" class="img-carrossel" />
-                <img src="imagens/6.jpg" alt="" class="img-carrossel" />
-                <img src="imagens/7.jpg" alt="" class="img-carrossel" />
-                <img src="imagens/8.jpg" alt="" class="img-carrossel" />
-                <img src="imagens/9.jpg" alt="" class="img-carrossel" />
-                <img src="imagens/10.jpg" alt="" class="img-carrossel" />
-                <img src="imagens/11.jpg" alt="" class="img-carrossel" />
-                <img src="imagens/12.jpg" alt="" class="img-carrossel" />
-                <img src="imagens/13.jpg" alt="" class="img-carrossel" />
-                <img src="imagens/14.jpg" alt="" class="img-carrossel" />
-                <img src="imagens/15.jpg" alt="" class="img-carrossel" />
-                <img src="imagens/16.jpg" alt="" class="img-carrossel" />
-                <img src="imagens/17.jpg" alt="" class="img-carrossel" />
-                <img src="imagens/18.jpg" alt="" class="img-carrossel" />
-                <img src="imagens/19.jpg" alt="" class="img-carrossel" />
+                <img src="imagens/1.jpg" alt="Ambiente 1" class="img-carrossel" />
+                <img src="imagens/2.jpg" alt="Ambiente 2" class="img-carrossel" />
+                <img src="imagens/3.jpg" alt="Ambiente 3" class="img-carrossel" />
+                <img src="imagens/4.jpg" alt="Ambiente 4" class="img-carrossel" />
+                <img src="imagens/5.jpg" alt="Ambiente 5" class="img-carrossel" />
+                <img src="imagens/6.jpg" alt="Ambiente 6" class="img-carrossel" />
+                <img src="imagens/7.jpg" alt="Ambiente 7" class="img-carrossel" />
+                <img src="imagens/8.jpg" alt="Ambiente 8" class="img-carrossel" />
+                <img src="imagens/9.jpg" alt="Ambiente 9" class="img-carrossel" />
+                <img src="imagens/10.jpg" alt="Ambiente 10" class="img-carrossel" />
+                <img src="imagens/11.jpg" alt="Ambiente 11" class="img-carrossel" />
+                <img src="imagens/12.jpg" alt="Ambiente 12" class="img-carrossel" />
+                <img src="imagens/13.jpg" alt="Ambiente 13" class="img-carrossel" />
+                <img src="imagens/14.jpg" alt="Ambiente 14" class="img-carrossel" />
+                <img src="imagens/15.jpg" alt="Ambiente 15" class="img-carrossel" />
+                <img src="imagens/16.jpg" alt="Ambiente 16" class="img-carrossel" />
+                <img src="imagens/17.jpg" alt="Ambiente 17" class="img-carrossel" />
+                <img src="imagens/18.jpg" alt="Ambiente 18" class="img-carrossel" />
             </div>
         </div>
         <div id="paginacao"></div>
@@ -311,8 +304,6 @@
         </div>
     </section>
 
-
-
     <!-- Rodapé da página -->
     <footer>
         <div class="foot">
@@ -320,11 +311,10 @@
         </div>
     </footer>
 
-    <!-- Link para o arquivo JavaScript -->
+    <!-- Scripts -->
     <script src="script/marcador.js"></script>
     <script src="script/script.js"></script>
     <script src="script/carrossel.js"></script>
-
 </body>
 
 </html>

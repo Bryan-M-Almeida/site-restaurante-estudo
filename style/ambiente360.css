@@ -4,23 +4,34 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 25vw; /* Largura maior para formar o retângulo */
-    height: 15vw; /* Altura menor */
+    width: clamp(250px, 25vw, 400px);
+    /* mantém responsivo com limite */
+    height: clamp(150px, 15vw, 250px);
     text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
 }
 
-
-.veja360 img {
-    width: 4vw; /* Ajuste do tamanho da imagem */
-    height: 4vw;
+.tour360 h2 {
+    color: #dcbe60;
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    margin-top: 0.5rem;
 }
+
 .veja360 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0.5rem;
 }
 
-.tour360 h2{
-    color: #dcbe60;
-    font-size: 1em;
+.veja360 img {
+    width: clamp(30px, 4vw, 60px);
+    height: clamp(30px, 4vw, 60px);
+}
+
+.tour360:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    transform: scale(1.02);
+    transition: all 0.3s ease;
 }
