@@ -13,6 +13,7 @@
     flex: 0 0 33.3333%;
     max-width: 33.3333%;
     cursor: pointer;
+    margin-right: 0.2%;
 }
 
 #paginacao {
@@ -35,10 +36,12 @@
     background: rgb(199, 16, 16);
 }
 .carrossel-container h2{
-    font-size: 2em ;
+    font-size: 2.5em ;
     color: #252314;
     text-align: center;
 }
 .carrossel-container small{
-    font-size: 1em;
+    font-size: 0.5em;
+    color: #252314;
+    border-bottom: 2px solid  #922136;
 }

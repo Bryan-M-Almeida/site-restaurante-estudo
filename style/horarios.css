@@ -18,11 +18,22 @@
     padding: 0;
     color: #252314;
     margin: 0 5% 1% 0%;
-    font-size: 1.8vw;
+    font-size: 2.1vw;
 }
 
 .domingo-segunda,
 .sexta-sabado {
     color: #252314;
-    font-size: 1.8vw;
+    font-size: 2.1vw;
+
+}
+
+.sexta-sabado small {
+    color: #922136;
+    text-transform: lowercase;
+}
+
+.domingo-segunda small {
+    color: #922136;
+    text-transform: lowercase;
 }

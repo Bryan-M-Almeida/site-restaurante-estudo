@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     text-transform: uppercase;
-    font-family: "Playfair Display", serif;
+    font-family: 'Playfair Display', serif;
     box-sizing: border-box;
 }
 
@@ -15,11 +15,11 @@ body {
     margin: 0;
     font-size: 1.6vw;
     color: white;
+    font-family:'playfair display', serif;
 }
 
 .bground {
     background-image: url("../imagens/bg.png");
-
     background-attachment: fixed;
     /* ou remova esse */
     background-size: 100% auto;
@@ -29,8 +29,7 @@ body {
 }
 
 small {
-    color: #922136;
-    
+    color: #252314;
     text-align: center;
 }
 
