@@ -1,0 +1,24 @@
+.comoChegarContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.comoChegarContainer h1 small{
+    text-align: center;
+}
+.comoChegarContainer small{
+    border-bottom: 4px solid #922136;
+font-size: 2em;
+}
+.comoChegarContainer h1{
+    font-size: 3em;
+    text-align: center;
+}
+.mapa{
+    width: 80vw;
+    height: 40vw;
+}
+#comoChegar{
+background-image: url('../imagens/bg.png');
+}

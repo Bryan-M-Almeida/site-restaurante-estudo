@@ -1,18 +1,20 @@
 .inicioContainer {
-    background-color: rgba(255, 255, 255, 0.623);
+    background-color: rgb(255, 255, 255);
     margin: 0 20%;
     overflow: hidden;
     color: #252314;
     padding: 20px;
-    border: 0.5px solid black;
-    border-radius: 20px;
     transition: 0.9s;
+    border-radius: 10px;
 }
 
 .inicioContainer:hover {
     scale: 1.05;
     transform: scale(1.02);
     box-shadow: 14px 14px 50px rgb(0, 0, 0);
+}
+.inicioContainer:hover p {
+    font-size: 1.9em;
 }
 
 .welcomeFoto {

@@ -20,11 +20,11 @@ body {
 
 .bground {
     background-image: url("../imagens/bg.png");
-    background-attachment: scroll;
     /* ou remova esse */
     background-size: 100% 100%;
     /* largura cheia, altura proporcional */
-    background-position: center top;
+    background-position: center;
+    background-attachment: fixed;
     background-repeat: no-repeat;
 }
 

@@ -1,0 +1,46 @@
+.contatoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    height: 30vw;
+    margin-top: 10vw;
+    background: url('https://ludwigrestaurant.com.br/dados/slider/1.jpg') center/cover fixed;
+}
+.contatoContainer small {
+    border-bottom: 4px solid #922136;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.contatoContainer h1 {
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    font-family: 'playfair-display', serif;
+}
+
+.contatoContainer p {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'montserrat', sans-serif;
+}
+.contatoContainer a {
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+.contato{
+    font-family: 'montserrat', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 90vw;
+    justify-content: space-around;
+    text-align: center;
+}

@@ -180,3 +180,19 @@
         width: 100%;
     }
 }
+@media (max-width: 768px) {
+    .reserva {
+        width: 15vw;
+        height: 25vw;
+        top: 10%;
+        border-radius: 8px 0 0 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .reserva {
+        width: 20vw;
+        height: 30vw;
+        top: 8%;
+    }
+}
