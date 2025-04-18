@@ -5,7 +5,6 @@
 @import url('historia.css');
 @import url('horarios.css');
 @import url('videos.css');
-@import url('responsivo.css');
 @import url('reservaFixa.css');
 @import url('ambientes.css');
 @import url('ambiente360.css');
@@ -13,3 +12,7 @@
 @import url('localizacao.css');
 @import url('contato.css');
 @import url('parceiros.css');
+@import url('rodape.css');
+@import url('responsividade/mobile.css');
+@import url('responsividade/tablet.css');
+@import url('responsividade/padrao.css');

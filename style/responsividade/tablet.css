@@ -1,0 +1,58 @@
+/* Telas médias (tablets e laptops entre 768px e 1199px) */
+@media screen and (max-width: 1199px) {
+    body {
+        font-size: 1.4vw;
+    }
+
+    .container,
+    .containerFixed {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .item {
+        margin: 1vw 0;
+        font-size: 1em;
+    }
+
+    .logo {
+        width: 25vw;
+        margin: 10px 0;
+    }
+
+    .logos {
+        flex-direction: row;
+        margin: 2%;
+    }
+
+    .separador {
+        margin: 1vw;
+    }
+
+    .welcomeFoto {
+        width: 40vw;
+        float: none;
+        display: block;
+        margin: 0 auto 20px auto;
+    }
+
+    .inicioContainer,
+    .historiaContainer {
+        margin: 5%;
+    }
+
+    .historiaTitle {
+        margin: 0 20%;
+    }
+
+    .horarios {
+        margin: 10%;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    iframe {
+        width: 90%;
+        height: auto;
+    }
+}

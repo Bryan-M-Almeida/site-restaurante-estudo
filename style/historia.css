@@ -4,20 +4,11 @@
     overflow: hidden;
     color: #252314;
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 5px;
     transition: 0.8s;
+    border: #252314 2px solid;
 }
 
-.historiaContainer:hover {
-    scale: 1.05;
-    transform: scale(1.02);
-    box-shadow: 14px 14px 50px rgb(0, 0, 0);
-
-}
-
-.historiaContainer:hover p {
-    font-size: 1.9em;
-}
 
 .historiaContainer h2 {
     text-align: center;

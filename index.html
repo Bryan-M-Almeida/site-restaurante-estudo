@@ -31,7 +31,7 @@
             <a href="#ambientes" class="item">Ambiente</a>
             <a href="#cardapio" class="item">Cardápio</a>
             <a href="#comoChegar" class="item">Como chegar</a>
-            <a href="#reservas" class="item">Reservas</a>
+            <a href="reserva.html" class="item">Reservas</a>
             <a href="#faleConosco" class="item">Fale conosco</a>
             <a href="#parceiros" class="item">Parceiros</a>
 
@@ -56,16 +56,6 @@
             </div>
         </div>
     </nav>
-
-    <!-- Link para a área de reservas -->
-    <div id="reserva">
-        <a href="reserva.html">
-            <img src="https://ludwigrestaurant.com.br/dados/layout/reserva.png" class="reserva" alt="Reservar agora">
-        </a>
-    </div>
-
-    <!-- Carrossel de imagens -->
-
     <div id="slider"></div>
     <!-- Seção inicial com horários e boas-vindas -->
     <section class="bground" id="inicio">
@@ -138,8 +128,6 @@
                     história.
                     Aproveite para vivenciar uma experiência Ludwig. Garantimos que será uma experiência memorável.
                 </p>
-                <br><br><br>
-                <br><br><br>
             </div>
         </div>
         <br><br>
@@ -188,7 +176,7 @@
         </div>
         <!-- Título e descrição sobre a história do fondue -->
         <br><br><br><br>
-        <div id="historia">
+        <div class="bground">
             <div class=historiaTitle>
                 <h2>
                     A história do Fondue
@@ -224,11 +212,10 @@
                     os demais e igualando-se a verdadeira essência do fondue suíço.
                 </p>
             </div>
+            <br><br>
         </div>
-        <br><br><br>
-        <br><br><br>
+
     </section>
-    <br><br><br>
     <br><br><br>
     <!-- Seção do ambiente -->
     <section id="ambientes">
@@ -310,27 +297,38 @@
             <br><br>
     </section>
     <section id="faleConosco">
-        <div class="contatoContainer">
-            <h1>Fale conosco</h1><small>é um prazer te ouvir</small><br>
-            <h3>Informações importantes sobre reservas:</h3>
-            <p>Reservas acima de seis pessoas só podem ser feitas via Whatsapp ou telefone. <br>As demais reservas devem
-                ser feitas sempre através de nossa plataforma online. <br>Se não houver disponibilidade na data e
-                horários disponíveis na mesma, isso significa que realmente não <br>temos vagas para o período
-                selecionado.</p>
-            <div class="contato">
-                <a href="tel:+551236635111">
-                    <p><img src="https://ludwigrestaurant.com.br/dados/layout/icons/fone.png" alt="">12 3663 5111</p>
-                </a>
-                <a href="tel:+551236635111">
-                    <p><img src="https://ludwigrestaurant.com.br/dados/layout/mail.png"
-                            alt="">reservas@ludwigrestaurant.com.br</p>
-                </a>
-                <a href="tel:+551236635111">
-                    <p><img src="https://ludwigrestaurant.com.br/dados/layout/icons/whats2.png" alt="">12 3663 5111</p>
-                </a>
+        <div class="faleConosco">
+
+            <div class="contatoContainer">
+                <h1>Fale conosco</h1>
+                <small>é um prazer te ouvir</small>
+                <h3>Informações importantes sobre reservas:</h3>
+                <p>
+                    Reservas acima de seis pessoas só podem ser feitas via Whatsapp ou telefone. <br>
+                    As demais reservas devem ser feitas sempre através de nossa plataforma online. <br>
+                    Se não houver disponibilidade na data e horários disponíveis na mesma, isso significa que realmente
+                    não
+                    temos vagas para o período selecionado.
+                </p>
+                <div class="contato">
+                    <a href="tel:+551236635111" class="contato-link">
+                        <img src="https://ludwigrestaurant.com.br/dados/layout/icons/fone.png" alt="Ícone de telefone">
+                        <span>12 3663 5111</span>
+                    </a>
+                    <a href="mailto:reservas@ludwigrestaurant.com.br" class="contato-link">
+                        <img src="https://ludwigrestaurant.com.br/dados/layout/mail.png" alt="Ícone de email">
+                        <span>reservas@ludwigrestaurant.com.br</span>
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=551236635111" class="contato-link">
+                        <img src="https://ludwigrestaurant.com.br/dados/layout/icons/whats2.png"
+                            alt="Ícone do WhatsApp">
+                        <span>12 3663 5111</span>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
+
     <section id="parceiros">
         <div class="titleParceiros">
             <h1>Parceiros</h1><br>
@@ -387,14 +385,14 @@
         </div>
         <div class="linha">
             <span>▼</span>
-        </div class="certificados">
+        </div>
 
         <div class="certificadosContainer">
 
             <a href="">
                 <div class="certificados">
                     <p>
-                        certificado de excelência
+                        certificado de excelência 2015
                         <br>
                         <span>leia as avaliações</span>
                     </p>
@@ -405,7 +403,7 @@
             <a href="">
                 <div class="certificados">
                     <p>
-                        certificado de excelência
+                        certificado de excelência 2016
                         <br>
                         <span>leia as avaliações</span>
                     </p>
@@ -416,7 +414,7 @@
             <a href="">
                 <div class="certificados">
                     <p>
-                        certificado de excelência
+                        certificado de excelência 2017
                         <br>
                         <span>leia as avaliações</span>
                     </p>
@@ -427,7 +425,7 @@
             <a href="">
                 <div class="certificados">
                     <p>
-                        certificado de excelência
+                        certificado de excelência 2018
                         <br>
                         <span>leia as avaliações</span>
                     </p>
@@ -437,19 +435,74 @@
             <a href="">
                 <div class="certificados">
                     <p>
-                        certificado de excelência
+                        certificado de excelência 2019
                         <br>
                         <span>leia as avaliações</span>
                     </p>
                     <img src="https://www.tripadvisor.com.br/img/cdsi/img2/awards/v2/coe-14348-2.png" alt="">
+                </div>
+            </a>
+            <a href="">
+                <div class="premios">
+                    <img src="https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2023_L.png" alt="">
+                </div>
+            </a>
+            </a>
+            <a href="">
+                <div class="premios">
+                    <img src="https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2024_LL.png" alt="">
                 </div>
             </a>
         </div>
 
     </section>
-    <script src="script/marcador.js"></script>
-    <script src="script/script.js"></script>
-    <script src="script/carrossel.js"></script>
+    <footer class="footer">
+        <div class="footerContainer">
+            <div class="footerMidias">
+                <a href="https://www.instagram.com/ludwigrestaurantoficial/">
+                    <img src="https://ludwigrestaurant.com.br/dados/layout/icons/instaroda.png" alt="Instagram"
+                        class="separador">
+                </a>
+                <a href="https://pt-br.facebook.com/ludwigrestaurant">
+                    <img src="https://ludwigrestaurant.com.br/dados/layout/icons/faceroda.png" alt="Facebook"
+                        class="separador">
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=551236635111">
+                    <img src="https://ludwigrestaurant.com.br/dados/layout/icons/whatsroda.png" alt="WhatsApp"
+                        class="separador">
+                </a>
+                <a
+                    href="https://www.tripadvisor.com.br/Restaurant_Review-g303607-d1870006-Reviews-Ludwig_Restaurant-Campos_Do_Jordao_State_of_Sao_Paulo.html">
+                    <img src="https://ludwigrestaurant.com.br/dados/layout/icons/triproda.png" alt="TripAdvisor"
+                        class="separador">
+                </a>
+            </div>
+
+            <div class="footerContato">
+                <a href="tel:+551236635111">
+                    <h6>
+                        Telefone:
+                    </h6>
+                    <small>12 3663-5111</small>
+                </a>
+            </div>
+
+            <div class="footerLogo">
+                <a href="#"><img src="https://ludwigrestaurant.com.br/dados/layout/logo2.png" alt=""></a>
+            </div>
+
+    </footer>
+    <div class="footerCopyright">
+        <div class="criador">
+            <a href="https://github.com/Bryan-M-Almeida">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="">Bryan
+            </a>
+        </div>
+        <p>Site desenvolvido por Bryan (clone)</p>
+
+        <script src="script/marcador.js"></script>
+        <script src="script/script.js"></script>
+        <script src="script/carrossel.js"></script>
 </body>
 
 </html>

@@ -1,26 +1,28 @@
 .navFixed {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: rgba(0, 0, 0);
     position: fixed;
-    width: 100%;
     top: 0;
-    padding: 0;
-    gap: 20px;
+    width: 100%;
+    background-color: rgb(44, 29, 29);
     z-index: 5;
-    transition: all 0.8s ease;
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+    gap: 10px;
+    transition: all 0.3s ease;
 }
-
+#slider{
+    width: 1000vw;
+}
 .containerFixed {
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
     width: 100%;
-    gap: 10px;
+    max-width: 1200px;
 }
+
 
 .navFixed.smaller {
     padding: 4px 50px;

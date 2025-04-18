@@ -1,0 +1,94 @@
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 1vw;
+    }
+
+    .logo {
+        width: 10vw;
+    }
+
+    .welcomeFoto {
+        width: 20vw;
+    }
+
+    .contatoContainer {
+        height: auto;
+        padding: 50px;
+    }
+
+    .contato {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .reserva {
+        width: 15vw;
+        height: 25vw;
+        top: 10%;
+        border-radius: 8px 0 0 8px;
+    }
+
+    @media (max-width: 768px) {
+        .linha {
+            font-size: 1.2em;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .linha::before,
+        .linha::after {
+            display: none;
+        }
+
+        .titleParceiros h1 {
+            font-size: 2em;
+        }
+
+        .titleParceiros {
+            padding: 10px;
+            flex-direction: column;
+        }
+
+        .parceirosGoldContainer,
+        .parceirosSilverContainer,
+        .certificadosContainer {
+            width: 90%;
+            margin: 5% auto;
+            flex-direction: column;
+        }
+
+        .parceirosGoldContainer a,
+        .parceirosSilverContainer a {
+            margin: 10px 0;
+        }
+
+        .certificados {
+            width: 60vw;
+            height: auto;
+            margin-bottom: 20px;
+            margin-right: 0;
+        }
+
+        .certificadosContainer img {
+            width: 100%;
+            height: auto;
+            position: static;
+        }
+
+        .certificadosContainer p {
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+
+        .certificadosContainer span {
+            font-size: 1em;
+        }
+
+        .premios {
+            margin-top: 20px;
+        }
+    }
+
+}

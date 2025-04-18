@@ -1,84 +1,43 @@
-@media screen and (min-width: 1200px) {
-    body {
-        font-size: 1vw;
-    }
-
-    .logo {
-        width: 10vw;
-    }
-
-    .welcomeFoto {
-        width: 20vw;
-    }
-}
-
-/* Telas médias (tablets e laptops entre 768px e 1199px) */
-@media screen and (max-width: 1199px) {
-    body {
-        font-size: 1.4vw;
-    }
-
-    .container,
-    .containerFixed {
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .item {
-        margin: 1vw 0;
-        font-size: 1em;
-    }
-
-    .logo {
-        width: 25vw;
-        margin: 10px 0;
-    }
-
-    .logos {
-        flex-direction: row;
-        margin: 2%;
-    }
-
-    .separador {
-        margin: 1vw;
-    }
-
-    .welcomeFoto {
-        width: 40vw;
-        float: none;
-        display: block;
-        margin: 0 auto 20px auto;
-    }
-
-    .inicioContainer,
-    .historiaContainer {
-        margin: 5%;
-    }
-
-    .historiaTitle {
-        margin: 0 20%;
-    }
-
-    .horarios {
-        margin: 10%;
-        flex-direction: row;
-        align-items: center;
-    }
-
-    iframe {
-        width: 90%;
-        height: auto;
-    }
-}
-
 /* Telas pequenas (celulares até 767px) */
 @media screen and (max-width: 767px) {
     body {
+        width: 100vh;
+        height: 100vh;
         font-size: 4vw;
     }
 
     .logo {
         width: 40vw;
+    }
+
+    .contatoContainer {
+        height: auto;
+        padding: 30px 15px;
+        margin-top: 10vw;
+    }
+
+    .contatoContainer h1 {
+        font-size: 2em;
+    }
+
+    .contatoContainer small {
+        font-size: 1.1em;
+    }
+
+    .contatoContainer p {
+        font-size: 1em;
+        padding: 0 10px;
+    }
+
+    .contatoContainer a {
+        font-size: 1em;
+    }
+
+    .contato {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        width: 100%;
     }
 
     .container,
@@ -111,7 +70,7 @@
         justify-content: space-between;
         flex-direction: row;
         flex-wrap: wrap;
-        width: 100%;
+        width: 100vw;
         gap: 10px;
     }
 
@@ -124,7 +83,6 @@
     }
 
     .navFixed.smaller .item {
-        margin: 1vw 0;
         font-size: 1.5em;
         transition: all 0.3s ease;
     }
@@ -133,7 +91,6 @@
         width: 12vw;
         transition: all 0.3s ease;
     }
-
 
     .item {
         font-size: 1em;
@@ -180,15 +137,6 @@
         width: 100%;
     }
 }
-@media (max-width: 768px) {
-    .reserva {
-        width: 15vw;
-        height: 25vw;
-        top: 10%;
-        border-radius: 8px 0 0 8px;
-    }
-}
-
 @media (max-width: 480px) {
     .reserva {
         width: 20vw;

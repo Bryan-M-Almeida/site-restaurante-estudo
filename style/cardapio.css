@@ -50,7 +50,7 @@
 }
 
 #cardapio {
-    background-image: url(https://ludwigrestaurant.com.br/dados/slider/4.jpg);
+    background-image: url('../imagens/parallax.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
