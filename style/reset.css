@@ -20,7 +20,7 @@ body {
 
 .bground {
     background-image: url("../imagens/bg.jpg");
-    background-size: contain 100%;
+    background-size: contain 100vw;
     background-attachment: scroll;
     background-repeat: no-repeat;
 }
