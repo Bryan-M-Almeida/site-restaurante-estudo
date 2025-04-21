@@ -1,13 +1,13 @@
 /* Telas pequenas (celulares até 767px) */
 @media screen and (max-width: 767px) {
     body {
-        width: 100vh;
+        width: 100vw;
         height: 100vh;
         font-size: 4vw;
     }
 
     .logo {
-        width: 40vw;
+        width: 10vw;
     }
 
     .contatoContainer {
@@ -47,7 +47,7 @@
         flex-direction: row;
         align-items: center;
         font-size: 2vw;
-        height: 50%;
+        height: 10%;
     }
 
     .navFixed {
@@ -136,7 +136,27 @@
     iframe {
         width: 100%;
     }
+
+    .galeriaModalContent {
+        flex-direction: column;
+    }
+
+    #galeriaModal button {
+        top: auto;
+        bottom: 10px;
+        transform: none;
+        margin: 0 0.5rem;
+    }
+
+    #anterior {
+        left: 30%;
+    }
+
+    #proximo {
+        right: 30%;
+    }
 }
+
 @media (max-width: 480px) {
     .reserva {
         width: 20vw;
